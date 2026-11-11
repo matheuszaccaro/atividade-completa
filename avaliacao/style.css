@@ -1,0 +1,247 @@
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    body {
+    background-color: #f2f2f2;
+    }
+    header {
+    font-size: 20px;
+    background-color: #ffffab;
+    display: flex;
+    }
+    .header1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 11px;
+    background-color: #000000;
+    color: #ffffab;
+    padding: 10px;
+    font-weight: bold;
+    display:grid
+    }
+    #logo {
+    font-family: 'Honk', serif;
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0;
+    padding-left: 40px;
+    font-size: 40px;
+    }
+    .icones {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    padding-right: 40px;
+    }
+    .icones {
+    font-family: sans-serif;
+    font-size: 14px;
+    }
+    .icones img {
+    width: 25px;
+    height: 30px;
+    padding-right: 1px;
+    }
+    .nav {
+    display: flex;
+    background-color: #ffffab;
+    gap: 30px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: #000000;
+    padding-bottom: 10px;
+    }
+    #promo {
+    color: #ff3fab;
+    }
+    hr {
+    border: 1px solid #000000;
+    }
+    main {
+    background-color: #ffffab;
+    padding: 20px;
+    }
+    .container-principal {
+    display: flex; 
+    max-width: 1200px; 
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 10px;
+    }
+    #container1 {
+    flex: 1;
+    background-color: #f2f2f2;
+    min-height: 400px;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 13px;
+    border-radius: 10px 0px 0px 10px;
+    }
+    #container2 {
+    flex: 1;
+    background-color: #ebdcb9;
+    min-height: 400px;
+    border-radius: 0px 10px 10px 0px;
+    }
+    .container1-texto {
+    font-family: sans-serif;
+    font-size: 67px;
+    font-weight: bolder;
+    }
+    #container1-texto2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    }
+    #botao1 {
+    background-color: #ff3fab; 
+    border: 1px solid #000;
+    border-radius: 50px; 
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    }
+    #container2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    }
+    ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 80px;
+    }
+    .classificacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+    }
+    .botoes {
+    background-color: #ffffab; 
+    border: 1px solid #000;
+    border-radius: 90px; 
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    }
+    .botoes img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    padding-bottom: 20px;
+    }
+    .botaopromo {
+    background-color: #ff3fab;
+    border: 1px solid #000;
+    border-radius: 90px; 
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    }
+    .botaopromo img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    padding-bottom: 20px;
+    }
+    #ofertas {
+    padding-left: 30px;
+    font-family: sans-serif;
+    }
+    #ofertas1 {
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 10px;  
+    }
+    .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    }
+    .produtos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    }
+    .produto {
+    width: 230px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+    .desconto {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #ff3fab;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 3px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    .imagem {
+    width: 100%;
+    height: 180px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;    
+    }
+    .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+    .info {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    flex: 1;
+    }
+    .nome {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: #ff3fab;
+    font-weight: bolder;
+    }
+    .precoa {
+    text-decoration: line-through;
+    font-size: 11px;
+    }
+    .precod {
+    font-size: 20px;
+    margin: 5px 0;
+    }
+    .info small {
+    font-size: 10px;
+    }
+    .adicionar {
+    margin-top: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff32a5;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
